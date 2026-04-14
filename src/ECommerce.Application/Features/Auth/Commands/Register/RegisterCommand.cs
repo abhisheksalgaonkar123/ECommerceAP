@@ -1,0 +1,8 @@
+using ECommerce.Application.DTOs.Auth;
+using MediatR;
+
+namespace ECommerce.Application.Features.Auth.Commands.Register;
+
+public record RegisterCommand(string FirstName,string LastName,string Email,string Password,string ConfirmPassword) : IRequest<AuthResponseDto>;
+
+

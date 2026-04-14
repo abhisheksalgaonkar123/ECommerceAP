@@ -1,0 +1,34 @@
+# Build outputs
+bin/
+obj/
+out/
+**/bin/
+**/obj/
+**/out/
+
+# Secrets
+deploy.sh
+*.sh
+.env
+.env.*
+**/secrets.json
+**/appsettings.Development.json
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+qodana.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+coverage/
