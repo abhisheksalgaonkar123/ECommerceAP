@@ -55,3 +55,4 @@ dotnet run --project src/ECommerce.API
 - Azure Redis Cache
 - Azure Key Vault
 - Azure Container Registry
+
